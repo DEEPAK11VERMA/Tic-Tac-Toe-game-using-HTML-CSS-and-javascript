@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation-duration</title>
+    <style>
+        .wid-box{
+            width: 200px;
+            height: 100px;
+            border: 2px black solid;
+            position :relative;
+            margin:50px auto;
+
+        }
+        .box{
+            width: 40px ;
+            height: 20px;
+            margin-top: 40px;
+            margin-right: 10px;
+            animation: box 4s 2;
+            position: absolute;
+            background-color: 
+            black;
+animation-delay: 2s;
+text-align: center;
+color: aliceblue;
+animation-timing-function: ease-in-out ;
+        }
+        @keyframes box{
+            from{
+                left: 0px;
+            }
+            to{
+                left: 162px;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="wid-box">
+        <div class="box"> 
+             linear</div>
+    </div>
+</body>
+</html>

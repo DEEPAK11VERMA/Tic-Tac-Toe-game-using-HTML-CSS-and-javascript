@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+<style> 
+.box-container{
+    margin: auto;
+    border: 2px black solid;
+    width: 500px;
+    height: 600px;
+    display: flex; 
+    flex-wrap:nowrap;
+    /* when the screen size is small it does not change the its orignal size */
+    align-content:center;
+    /* it align the content to center baseline and end */
+    /* align-items: center; */
+    /* it align the divide element  */
+    /* align-content: space-between ; */
+    /* it give space between elements */
+    flex-direction: row;
+
+
+
+
+}
+.box1{
+width: 100px;
+height: 100px;
+background-color: aqua;
+}
+.box1{
+width: 100px;
+height: 100px;
+background-color:red;
+}
+.box2{
+width: 100px;
+height: 100px;
+background-color: gainsboro;
+}
+.box3{
+width: 100px;
+height: 100px;
+background-color:rebeccapurple;
+}
+.box4{
+width: 100px;
+height: 100px;
+background-color:magenta;
+}.box5{
+width: 100px;
+height: 100px;
+background-color:palegoldenrod;
+}
+
+ </style>
+</head>
+<body>
+    <div class="box-container">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+        <div class="box3">3</div>
+        <div class="box4">4</div>
+        <div class="box5">5</div>
+    </div>
+</body>
+</html>

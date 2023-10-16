@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WATCH</title>
+    <link rel="icon" href="image\131054_clearbg_noslogan.png">
+</head>
+<script>
+   
+(function(){
+    setInterval(()=>{
+        var d=new Date().toLocaleTimeString();
+        document.getElementById("demo").innerHTML= d;
+    },1000
+)})();
+function myfunction(){
+    var t= new Date().toLocaleDateString();
+    document.getElementById("time").innerHTML=t;
+}
+</script>
+<body>
+    <button onclick=" myfunction()" >TIME AND DATE</button>
+    <p id="demo"></p>
+    <p id="time"></p>
+    
+</body>
+</html>
